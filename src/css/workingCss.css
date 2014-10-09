@@ -1,0 +1,100 @@
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table.contentTable { 
+	padding-top: 20px;
+  width: 100%; 
+  border-spacing: 5px;
+}
+
+thead.contentTableHeader{
+	color: #BE6245;
+	font-weight: bold; 
+	  background-color: #F0F0F0;
+}
+
+th.contentTableHeading { 
+  color: white; 
+  font-weight: bold; 
+    background-color: #F0F0F0;
+
+}
+td.contentRow, th.contentTableHeading { 
+  padding: 6px; 
+  text-align: left; 
+  width: 33%;
+    background-color: #F0F0F0;
+}
+
+
+
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+	/* Force table to not be like tables anymore */
+	table.contentTable, thead.contentTableHeader, tbody.contentTableBody, th.contentTableHeading, td.contentRow, tr.contentTableColumn { 
+		display: block; 
+	}
+
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead.contentTableHeader tr.contentTableColumn { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr.contentTableColumn { border: 1px solid #ccc; }
+	
+	td.contentRow { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td.contentRow:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	td.contentRow:nth-of-type(1):before { content: "About"; color: #BE6245; 	font-weight: bold; 
+}
+	td.contentRow:nth-of-type(2):before { content: "Contents"; color: #BE6245; 	font-weight: bold; 
+}
+	td.contentRow:nth-of-type(3):before { content: "Contact"; color: #BE6245; 	font-weight: bold; 
+ }
+
+
+@media only screen and (max-width: 450px), (min-device-width: 768px) and (max-device-width: 1024px) {
+td.contentRow { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 25%; 
+		background-color: #F0F0F0;
+	}
+
+td.contentRow:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 0px;
+		left: 0px;
+		width: 100%; 
+		padding-right: 5px; 
+		white-space: nowrap;
+		background-color: #F0F0F0;
+	}
+
+	}
