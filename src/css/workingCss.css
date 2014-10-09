@@ -16,7 +16,7 @@ thead.contentTableHeader{
 th.contentTableHeading { 
   color: white; 
   font-weight: bold; 
-    background-color: #F0F0F0;
+  background-color: #F0F0F0;
 
 }
 td.contentRow, th.contentTableHeading { 
@@ -51,6 +51,7 @@ td.contentRow, th.contentTableHeading {
 		border-bottom: 1px solid #eee; 
 		position: relative;
 		padding-left: 50%; 
+
 	}
 	
 	td.contentRow:before { 
@@ -62,6 +63,7 @@ td.contentRow, th.contentTableHeading {
 		width: 45%; 
 		padding-right: 10px; 
 		white-space: nowrap;
+
 	}
 	
 	/*
@@ -75,7 +77,7 @@ td.contentRow, th.contentTableHeading {
  }
 
 
-@media only screen and (max-width: 450px), (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (max-width: 490px), (min-device-width: 490px) and (max-device-width: 1024px) {
 td.contentRow { 
 		/* Behave  like a "row" */
 		border: none;
@@ -92,9 +94,13 @@ td.contentRow:before {
 		top: 0px;
 		left: 0px;
 		width: 100%; 
-		padding-right: 5px; 
+		padding-right: 10px; 
 		white-space: nowrap;
 		background-color: #F0F0F0;
 	}
 
+	td.goodwidth{
+		width: 266px;
+		
+	}
 	}
