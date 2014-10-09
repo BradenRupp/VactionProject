@@ -1,4 +1,4 @@
-table	{width: 100%;
+table.nav	{width: 100%;
 		text-align: right;
 	    border-collapse: collapse;
 	    font-size: 24px;
@@ -6,7 +6,7 @@ table	{width: 100%;
 
 		}
 
-td 		{
+td.navrow		{
 	font-family: Courier;
 }
    
