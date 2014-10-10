@@ -2,7 +2,7 @@
 Generic Styling, for Desktops/Laptops 
 */
 table.contentTable { 
-	padding-top: 20px;
+  padding-top: 20px;
   width: 100%; 
   border-spacing: 5px;
 }
@@ -10,7 +10,7 @@ table.contentTable {
 thead.contentTableHeader{
 	color: #BE6245;
 	font-weight: bold; 
-	  background-color: #F0F0F0;
+	background-color: #F0F0F0;
 }
 
 th.contentTableHeading { 
@@ -23,7 +23,7 @@ td.contentRow, th.contentTableHeading {
   padding: 6px; 
   text-align: left; 
   width: 33%;
-    background-color: #F0F0F0;
+  background-color: #F0F0F0;
 }
 
 
@@ -101,6 +101,6 @@ td.contentRow:before {
 
 	td.goodwidth{
 		width: 266px;
-		
+
 	}
 	}
