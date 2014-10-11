@@ -19,6 +19,8 @@ body	{
 
 img.feature-padding 	{
 padding-bottom: 60px;
+margin-right: -7px;
+margin-left: -7px;
 }
 
 img.centerImage	{
@@ -118,13 +120,14 @@ h2	{
 
 
 h2.contentHeadingLeft	{
-		padding-top: 100px; 
+		padding-top: 97px; 
 		text-align: left;
+		padding-left: 7px;
 
 }
 
 h2.contentHeadingRight	{
-		padding-top: 100px; 
+		padding-top: 97px; 
 		padding-right: 14px;
 		text-align: right
 
@@ -144,8 +147,13 @@ p.correct-left-image	{
 	float: left;
 	margin-left: 5px;
 	margin-right: 5px;
+	padding-right: 9px;
+
 }
 
+img.pushRight	{
+	padding-left: 7px;
+}
 .bottomNav	{
 	float: right; padding-right: 8px; margin-right: 25px;
 }
