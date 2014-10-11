@@ -93,6 +93,7 @@ td.displayNone{
 td.displayShortNav{
 	display: none;
 }
+
 }
 
 
@@ -101,9 +102,15 @@ h2	{
 }
 
 
+.bottomNav	{
+	text-align: center;
+}
+
 /* Media query that moves the picture headings on colorado and australia pages */
 
 @media screen and (min-width: 600px ){
+
+
 
 h2.contentHeadingLeft	{
 		padding-top: 100px; 
@@ -131,6 +138,10 @@ p.correct-left-image	{
 	float: left;
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+.bottomNav	{
+	float: right; padding-right: 8px; margin-right: 25px;
 }
 
 
