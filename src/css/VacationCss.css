@@ -11,7 +11,10 @@ body	{
     font-size: 17px;
     color: #333;
     background-color: #fff;
+}
 
+.contentMargin	{
+	padding: 25px;
 }
 
 img.feature-padding 	{
@@ -40,6 +43,8 @@ td.navrow		{
 {
 	font-size: 18px;
 	font-weight: bold;
+	padding: 3px;
+	padding-top: 5px;
 }
 
 .contactTable
@@ -81,14 +86,14 @@ a:active { color: black; }
 
 
 
-@media screen and (max-width: 675px ){
+@media screen and (max-width: 682px ){
 
 td.displayNone{
 	display: none;
 }
 }
 
-@media screen and (min-width: 675px ){
+@media screen and (min-width: 682px ){
 
 td.displayShortNav{
 	display: none;
@@ -108,7 +113,7 @@ h2	{
 
 /* Media query that moves the picture headings on colorado and australia pages */
 
-@media screen and (min-width: 600px ){
+@media screen and (min-width: 682px ){
 
 
 
@@ -120,6 +125,7 @@ h2.contentHeadingLeft	{
 
 h2.contentHeadingRight	{
 		padding-top: 100px; 
+		padding-right: 14px;
 		text-align: right
 
 }
@@ -144,6 +150,10 @@ p.correct-left-image	{
 	float: right; padding-right: 8px; margin-right: 25px;
 }
 
+p.darkP {
+	margin-left: 400px
+	}
+
 
 }
 
@@ -161,9 +171,9 @@ footer {
 	background:#F0F0F0;
 	text-align: center;
 	bottom: 0;
-
-
+	margin-bottom: -15px; 
 }
+
 
 
 
