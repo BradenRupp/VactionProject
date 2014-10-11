@@ -2,6 +2,7 @@
 Generic Styling, for Desktops/Laptops 
 */
 table.contentTable { 
+	width: 100%;
   padding-top: 20px;
   width: 100%; 
   border-spacing: 5px;

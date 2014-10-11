@@ -6,6 +6,7 @@ hr {
 }
 
 body	{
+	margin: 0px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
     color: #333;
@@ -17,6 +18,9 @@ img.feature-padding 	{
 padding-bottom: 60px;
 }
 
+img.centerImage	{
+	max-width: 100%;
+}
 
 
 table.nav	{width: 100%;
@@ -128,6 +132,7 @@ p.correct-left-image	{
 	margin-left: 5px;
 	margin-right: 5px;
 }
+
 
 }
 
