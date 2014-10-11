@@ -1,3 +1,24 @@
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+body	{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: #333;
+    background-color: #fff;
+
+}
+
+img.feature-padding 	{
+padding-bottom: 60px;
+}
+
+
+
 table.nav	{width: 100%;
 		text-align: right;
 	    border-collapse: collapse;
@@ -7,7 +28,8 @@ table.nav	{width: 100%;
 		}
 
 td.navrow		{
-	font-family: Courier;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
 }
 
 .contactTableHead
@@ -20,6 +42,7 @@ td.navrow		{
 {
 	font-size: 16px;
 }
+
 
 
 td.width			{width: 3em;}
@@ -68,6 +91,51 @@ td.displayShortNav{
 }
 }
 
+
+h2	{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Media query that moves the picture headings on colorado and australia pages */
+
+@media screen and (min-width: 600px ){
+
+h2.contentHeadingLeft	{
+		padding-top: 100px; 
+		text-align: left;
+
+}
+
+h2.contentHeadingRight	{
+		padding-top: 100px; 
+		text-align: right
+
+}
+
+p.correct-right-image	{
+	margin-top: -250px; 
+	padding-top: 100px;
+	float: right;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+p.correct-left-image	{
+	margin-top: -250px; 
+	padding-top: 100px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+}
+
+
+
+.featurette-divider {
+  margin: 80px 0px; /* Space out the <hr> more */
+}
 
 /* FOOTER */
 
