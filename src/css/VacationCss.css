@@ -43,10 +43,11 @@ td.navrow		{
 
 .contactTableHead
 {
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: bold;
-	padding: 3px;
-	padding-top: 5px;
+
+	padding-left: 7px;
+	padding-top: 7px;
 }
 
 .contactTable

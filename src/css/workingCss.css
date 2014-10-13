@@ -9,7 +9,7 @@ table.contentTable {
 }
 
 thead.contentTableHeader{
-	color: #BE6245;
+	font-size: 1.5em;
 	font-weight: bold; 
 	background-color: #F0F0F0;
 }
@@ -70,11 +70,11 @@ td.contentRow, th.contentTableHeading {
 	/*
 	Label the data
 	*/
-	td.contentRow:nth-of-type(1):before { content: "About"; color: #BE6245; 	font-weight: bold; 
+	td.contentRow:nth-of-type(1):before { content: "About"; font-weight: bold; font-size: 1.2em; 
 }
-	td.contentRow:nth-of-type(2):before { content: "Contents"; color: #BE6245; 	font-weight: bold; 
+	td.contentRow:nth-of-type(2):before { content: "Contents"; font-weight: bold; font-size: 1.2em; 
 }
-	td.contentRow:nth-of-type(3):before { content: "Contact"; color: #BE6245; 	font-weight: bold; 
+	td.contentRow:nth-of-type(3):before { content: "Contact";font-weight: bold; font-size: 1.2em; 
  }
 
 
