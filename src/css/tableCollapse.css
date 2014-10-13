@@ -70,11 +70,11 @@ td.contentRow, th.contentTableHeading {
 	/*
 	Label the data
 	*/
-	td.contentRow:nth-of-type(1):before { content: "About"; font-weight: bold; font-size: 1.2em; 
+	td.contentRow:nth-of-type(1):before { content: "About"; font-weight: bold; font-size: 1.2em; color: #BE6245; 
 }
-	td.contentRow:nth-of-type(2):before { content: "Contents"; font-weight: bold; font-size: 1.2em; 
+	td.contentRow:nth-of-type(2):before { content: "Contents"; font-weight: bold; font-size: 1.2em; color: #BE6245; 
 }
-	td.contentRow:nth-of-type(3):before { content: "Contact";font-weight: bold; font-size: 1.2em; 
+	td.contentRow:nth-of-type(3):before { content: "Contact";font-weight: bold; font-size: 1.2em; color: #BE6245; 
  }
 
 
